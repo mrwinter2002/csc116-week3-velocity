@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="6d5yO*+L8b?y)T~Vpx$g">Player</variable><variable type="KIND_SpriteKind" id="f@yCKsWEgpONaO]wD0w-">Projectile</variable><variable type="KIND_SpriteKind" id="mC,Ep%:DA!(V;~Ip-u(?">Food</variable><variable type="KIND_SpriteKind" id="u:H9+L/oeRAISkymkQeB">Enemy</variable><variable id="p0ImV?%,IY=jn+k%48]J">monk</variable><variable id="xd!Ghd%{TPV!mf)cU)*:">mySprite</variable></variables><block type="pxt-on-start" id="2ga^Y.5i|pXlcBy)kf_e" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="2*85J?VDpp__S|DeJ4uA"><field name="VAR" id="p0ImV?%,IY=jn+k%48]J">monk</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="FM~1-9njla}O@]298#km"><value name="img"><shadow type="screen_image_picker" id="K+AF=$qYvUb|?MYK:9?="><field name="img">img`
+. . . . . f f f f f . . . . . . 
+. . . . f e e e e e f . . . . . 
+. . . f d d d d d e e f . . . . 
+. . f f f d d f f d e f f . . . 
+. c d d e e d d d d e d d f . . 
+. c c d d d d c d d e d f f f . 
+. c d c c c c d d d e d f b d f 
+. . c d d d d d d e e f f d d f 
+. . . c d d d d e e f f e f f f 
+. . . . f f f e e f e e e f . . 
+. . . . f e e e e e e e f f f . 
+. . . f e e e e e e f f f e f . 
+. . f f e e e e f f f f f e f . 
+. f b d f e e f b b f f f e f . 
+. f d d f e e f d d b f f f f . 
+. f f f f f f f f f f f f f . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="PQ-#zvf:Ur!;E245lSY4"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="GTCu?7?W4K}Db][]u=/n"><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="q`?yb{9Z_1RpU@]6m@bF"><field name="VAR" id="p0ImV?%,IY=jn+k%48]J">monk</field></block></value><value name="value"><shadow type="math_number" id="#zRM/+tl}$s/7WuRq311"><field name="NUM">10</field></shadow></value><next><block type="Sprite_blockCombine_set" id="%?x%JiQp.Sf@j23p7l?Z"><field name="property">Sprite.vx@set</field><value name="mySprite"><block type="variables_get" id="00:r-4iOL7!W}LTi78vV"><field name="VAR" id="p0ImV?%,IY=jn+k%48]J">monk</field></block></value><value name="value"><shadow type="math_number" id="A.-W:+`0E6,qF;0y47YQ"><field name="NUM">15</field></shadow></value></block></next></block></next></block></statement></block></xml>
